@@ -13,9 +13,10 @@
 	// Conexión con la base de datos
 	$mysql_c = mysqli_connect($econf["host"], $econf["user"], $econf["psw"], $econf["db"]);
 	if (!$mysql_c) die('No se pudo establecer conexión con la base de datos');
-  $dbcfg =  mysqli_fetch_array(mysqli_query($mysql_c, "SELECT * FROM cfg"));
-  $maxfig = $dbcfg[1];
-
+	$dbcfg =  mysqli_fetch_array(mysqli_query($mysql_c, "SELECT * FROM cfg"));
+	$maxfig = $dbcfg[1];
+	
+	// Versión actual
 	$ver = array(
 		"mayor" => "0",
 		"menor" => "8",
