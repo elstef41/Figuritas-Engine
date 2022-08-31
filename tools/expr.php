@@ -1,10 +1,10 @@
 <?php
-error_reporting(0);
 if (!include('../dat/config.php')) {
 	die("<h1>No se ha encontrado config.php</h1>\n<a>Puede que aun no hayas instalado Figuritas Engine.</a>");
 } else {
 	include ('dat/config.php');
 }
+
 $sfex = "SELECT * FROM figs WHERE obt = 0";
 $prsfex = mysqli_query($mysql_c, $sfex);
 ?>
