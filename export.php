@@ -1,8 +1,8 @@
 <?php
-error_reporting(0);
 if (!include('dat/config.php')) {
 	die("<h1>No se ha encontrado config.php</h1>\n<a>Puede que aun no hayas instalado Figuritas Engine.</a>");
 }
+
 include ('incs/header.php');
 ?>
 		<div class="menu">
