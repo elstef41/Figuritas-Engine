@@ -1,5 +1,8 @@
 # Figuritas Engine
 Un organizador de figuritas de álbum, programado en JS, PHP y MariaDB.
+<br>
+<center><img src="https://user-images.githubusercontent.com/19848495/194852731-48d55a12-bb3c-44bd-8d23-6572156c5808.png" data-canonical-src="https://user-images.githubusercontent.com/19848495/194852731-48d55a12-bb3c-44bd-8d23-6572156c5808.png" width="320" /></center>
+
 
 
 ### Requisitos
